@@ -1,4 +1,4 @@
-package ema;
+package ema.week01_solutions;
 
 public class FINRA {
 
