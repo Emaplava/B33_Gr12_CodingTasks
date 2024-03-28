@@ -2,6 +2,25 @@ package jake.week1_solutions;
 
 public class FINRA {
 
+
+    public static void FINRAresult(int start, int end) {
+        for (int i = start; i <= end; i++) {
+            if (i % 3 == 0 && i % 5 == 0) {
+                System.out.println("FINRA");
+            } else if (i % 3 == 0) {
+                System.out.println("FIN");
+            } else if (i % 5 == 0) {
+                System.out.println("RA");
+            } else {
+                System.out.println(i);
+            }
+        }
+    }
+
+
+
+
+
     /*
     FINRA :
 Write
