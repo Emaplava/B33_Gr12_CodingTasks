@@ -4,10 +4,15 @@ public class Numbers_OddOrEven {
 
     public static void main(String[] args) {
 
-        int number =23;
+        oddOrEvenNumbers(23);
+    }
 
-        if (number <= 0){
-            throw new RuntimeException("THE NUMBER CAN NOT BE NULL OR NEGATIVE!");
+    public static void oddOrEvenNumbers(int number){
+
+//        int number = -20;
+
+        if (number == 0){
+            System.err.println("THE NUMBER CAN NOT BE NULL OR NEGATIVE!");
         }else if (number % 2 == 0){
             System.out.println(number + " -> this number is even.");
         }else {
