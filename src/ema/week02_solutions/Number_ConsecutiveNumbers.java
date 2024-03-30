@@ -1,4 +1,4 @@
-package mentor.week2_tasks;
+package ema.week02_solutions;
 
 public class Number_ConsecutiveNumbers {
 
