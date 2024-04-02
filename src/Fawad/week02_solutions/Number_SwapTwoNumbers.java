@@ -1,4 +1,4 @@
-package mentor.week2_tasks;
+package Fawad.week02_solutions;
 
 public class Number_SwapTwoNumbers {
 
