@@ -1,4 +1,4 @@
-package mentor.week1_tasks;
+package mousa.week1_task;
 
 public class FINRA {
 
