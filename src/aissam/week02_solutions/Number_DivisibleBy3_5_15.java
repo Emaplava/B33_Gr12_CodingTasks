@@ -1,4 +1,4 @@
-package ema.week02_solutions;
+package aissam.week02_solutions;
 
 public class Number_DivisibleBy3_5_15 {
 
