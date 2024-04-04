@@ -1,4 +1,4 @@
-package mentor.week1_tasks;
+package aissam.week01_solutions;
 
 public class Numbers_DivideWithoutOperator {
 
