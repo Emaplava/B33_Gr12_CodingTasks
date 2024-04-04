@@ -37,17 +37,16 @@ public class Number_ConsecutiveNumbers {
 
         for (int i = 1; i <= N; i++) {
             if (i % 2 == 0) {
-                System.out.println("Codility");
+                System.out.print("Codility");
             }if (i % 3 == 0) {
-                System.out.println("Test");
+                System.out.print("Test");
             }if (i % 5 == 0) {
-                System.out.println("Coders");
+                System.out.print("Coders");
             }if (i % 2 != 0 && i % 3 != 0 && i % 5 != 0) {
-                System.out.println(i);
+                System.out.print(i);
             }
 
             System.out.println();
-
 
         }
 

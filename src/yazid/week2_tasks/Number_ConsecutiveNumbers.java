@@ -9,21 +9,21 @@ package yazid.week2_tasks;
 
         For example, here is the output for N = 24:
                                     1
-                                    Codility        2
-                                    Test            3
-                                    Codility        4
-                                    Coders          5
-                                    CodilityTest    6
+                                    Codility
+                                    Test
+                                    Codility
+                                    Coders
+                                    CodilityTest
                                     7
-                                    Codility        8
-                                    Test            9
-                                    Codi1ityCoders  10
+                                    Codility
+                                    Test
+                                    Codi1ityCoders
                                     11
-                                    CodilityTest    12
+                                    CodilityTest
                                     13
-                                    Codility        14
-                                    TestCoders      15
-                                    Codility        16
+                                    Codility
+                                    TestCoders
+                                    Codility
                                     17
                                     ....
      */
