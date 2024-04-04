@@ -1,8 +1,25 @@
 package Fawad.week02_solutions;
-
 public class Number_ConsecutiveNumbers {
-
-
+    public static void main(String[] args) {
+        int num = 17;
+        findTheNumbers(num);
+    }
+    public static void findTheNumbers(int num) {
+        for (int i = 0; i <= num; i++) {
+            if (i % 2 == 0 && i % 3 == 0 && i % 5 == 0) {
+               System.out.print("CodilityTestCoders");
+            } else if (i % 2 == 0) {
+                System.out.print("Codility");
+            } else if (i % 3 == 0) {
+                System.out.print("Test");
+            } else if (i % 5 == 0) {
+                System.out.print("Coders");
+            } else {
+                System.out.println(i + " ");
+            }
+        }
+    }
+}
     /*
     Write a function:
     that, given a positive integer N, prints the consecutive numbers from 1 to N, each on a separate line.
@@ -34,9 +51,6 @@ public class Number_ConsecutiveNumbers {
 
 
 
-    public static void main(String[] args) {
-
-    }
+   // public static void main(String[] args) {
 
 
-}

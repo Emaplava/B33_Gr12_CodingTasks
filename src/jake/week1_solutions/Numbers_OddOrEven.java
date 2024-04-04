@@ -4,7 +4,10 @@ public class Numbers_OddOrEven {
 
     public static void numberOddOrEven(int num1){
 
-        if (num1 % 2 == 0){
+        if (num1 == 0){
+            System.err.println("0 is neither even or odd.");
+        }
+        else if (num1 % 2 == 0){
             System.out.println("Your number is even.");
         }else{
             System.out.println("Your number is odd.");
