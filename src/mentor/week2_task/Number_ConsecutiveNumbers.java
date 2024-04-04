@@ -1,4 +1,4 @@
-package ema.week02_solutions;
+package mentor.week2_task;
 
 public class Number_ConsecutiveNumbers {
 
@@ -33,29 +33,10 @@ public class Number_ConsecutiveNumbers {
      */
 
 
-    public static void consecutiveNumbers(int N) {
-
-        for (int i = 1; i <= N; i++) {
-            if (i % 2 == 0) {
-                System.out.print("Codility");
-            }if (i % 3 == 0) {
-                System.out.print("Test");
-            }if (i % 5 == 0) {
-                System.out.print("Coders");
-            }if (i % 2 != 0 && i % 3 != 0 && i % 5 != 0) {
-                System.out.print(i);
-            }
-
-            System.out.println();
-
-        }
-
-    }
 
     public static void main(String[] args) {
-        consecutiveNumbers(24);
+
     }
 
 
 }
-
