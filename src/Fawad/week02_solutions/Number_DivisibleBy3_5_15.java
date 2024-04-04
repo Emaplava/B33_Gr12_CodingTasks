@@ -3,7 +3,7 @@ package Fawad.week02_solutions;
 public class Number_DivisibleBy3_5_15 {
 
     public static void main(String[] args) {
-        int N = 100; // Change N to desired range
+        int N = 100;
 
         System.out.println("Numbers divisible by 3:");
         for (int i = 1; i <= N; i++) {
