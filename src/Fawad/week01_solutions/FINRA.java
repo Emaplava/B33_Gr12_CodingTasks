@@ -1,7 +1,30 @@
 package Fawad.week01_solutions;
 
-public class FINRA {
-}
+public class FINRA{
+        public static void main(String[] args) {
+            printNumbersOfFINRA();
+        }
+
+        public static void printNumbersOfFINRA() {
+            for (int i = 1; i <= 21; i++) {
+                if (i % 3 == 0 && i % 5 == 0) {
+                    System.out.print("FINRA");
+                } else if (i % 3 == 0) {
+                    System.out.print("FIN");
+                } else if (i % 5 == 0) {
+                    System.out.print("RA");
+                } else {
+                    System.out.print(i + " ");
+                }
+            }
+        }
+    }
+
+
+
+
+
+
 
     /*
     FINRA :
