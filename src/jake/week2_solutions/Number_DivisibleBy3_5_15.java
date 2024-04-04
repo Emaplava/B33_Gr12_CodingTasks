@@ -15,7 +15,7 @@ public class Number_DivisibleBy3_5_15 {
             if(i % 3 == 0 && i % 15 != 0){
                 divBy3.append(i + " ");
             }
-            if (i % 5 == 0 && 1 % 15 != 0){
+            if (i % 5 == 0 && i % 15 != 0){
                 divBy5.append(i + " ");
             }
         }
