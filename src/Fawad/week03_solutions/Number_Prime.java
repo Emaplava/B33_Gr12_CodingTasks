@@ -11,11 +11,11 @@ public class Number_Prime {
             for (int j = 2; j <= num; j++) { // This nested loop checks if the number i is dividable or not
                 if (i % j == 0) {
                     isPrime = false;
-                    break;
+                    break; //
                 }
             }
             if (isPrime){
-                System.out.print(i + " ");
+                System.out.print(i + "");
             }
         }
     }
