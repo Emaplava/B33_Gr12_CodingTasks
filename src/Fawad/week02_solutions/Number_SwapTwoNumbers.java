@@ -6,7 +6,7 @@ public class Number_SwapTwoNumbers {
         int num1 = 50;
         int num2 = 100;
 
-         num1 = num1 + num2; // num1 + num2 = 150
+         num1 = num1 + num2; // num1 + num2 = 50 + 100 = 150
          num2 = num1 - num2; // num2 - num1 = 150
          num1 = num1 - num2; // num1 = 150 - 50 = 100
         System.out.println("After swapping the number: ");
