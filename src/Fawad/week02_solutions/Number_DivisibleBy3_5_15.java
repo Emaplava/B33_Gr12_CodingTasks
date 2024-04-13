@@ -1,6 +1,30 @@
-package ema.week02_solutions;
+package Fawad.week02_solutions;
 
 public class Number_DivisibleBy3_5_15 {
+
+    public static void main(String[] args) {
+        int N = 100;
+
+        System.out.println("Numbers divisible by 3:");
+        for (int i = 1; i <= N; i++) {
+            if (i % 3 == 0 && i % 15 != 0) {
+                System.out.print(i + " ");
+            }
+        }
+        System.out.println("\nNumbers divisible by 5:");
+        for (int i = 1; i <= N; i++) {
+            if (i % 5 == 0 && i % 15 != 0) {
+                System.out.print(i + " ");
+            }
+        }
+        System.out.println("\nNumbers divisible by 15:");
+        for (int i = 1; i <= N; i++) {
+            if (i % 15 == 0) {
+                System.out.print(i + " ");
+            }
+        }
+    }
+}
 
     /*
     Write a program that can print the numbers between 1 ~ N that can be divisible by 3, 5, and 15.
@@ -22,42 +46,3 @@ public class Number_DivisibleBy3_5_15 {
                  Divisible By 3 3 6 9 12 18 21 24 27 33 36 39 42 48 51 54 57 63 66 69 72 78 81 84 87 93 96 99
 
     */
-
-    public static void main(String[] args) {
-        divisibleNumbers(100);
-
-    }
-
-    public static void divisibleNumbers(int N){
-
-        System.out.print("Divisible By 15: ");
-        for (int i = 1; i < N; i++) {
-            if (i % 3 == 0 && i % 5 == 0 && i % 15 == 0) {
-                System.out.print(i + " ");
-            }
-
-        }
-        System.out.println();
-
-        System.out.print("Divisible By 5:  ");
-        for (int i = 1; i < N; i++) {
-            if (i % 5 == 0 && i % 15 != 0) {
-                System.out.print(i + " ");
-            }
-
-        }
-
-        System.out.println();
-
-            System.out.print("Divisible By 3:  ");
-            for (int i = 1; i < N; i++) {
-                if (i % 3 == 0 && i % 15 != 0) {
-                    System.out.print(i + " ");
-                }
-
-            }
-
-
-
-    }
-}

@@ -1,4 +1,4 @@
-package mentor.week2_tasks;
+package mentor.week2_task;
 
 public class Number_DivisibleBy3_5_15 {
 
