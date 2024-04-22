@@ -1,4 +1,4 @@
-package mentor.week5_tasks;
+package yazid.week5_tasks;
 
 public class String_UniqueCharacters {
 
