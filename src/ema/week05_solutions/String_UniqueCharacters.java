@@ -23,7 +23,8 @@ public class String_UniqueCharacters {
             }
         }
 
-        System.out.println(uniqueCharacters);
+        System.out.println("Given String      : " + str);
+        System.out.println("Unique Character  : " + uniqueCharacters);
 
     }
 
