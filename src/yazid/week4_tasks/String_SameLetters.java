@@ -21,9 +21,9 @@ public class String_SameLetters {
         String str2 = "cab";
 
         if (same(str1, str2)) {
-            System.out.println("Strings are built out of the same letters.");
+            System.out.println("True.");
         } else {
-            System.out.println("Strings are not built out of the same letters.");
+            System.out.println("False.");
         }
     }
 }
