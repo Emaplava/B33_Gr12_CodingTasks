@@ -17,7 +17,6 @@ public class String_UniqueCharacters {
 
         for (int i = 0; i < str.length(); i++) {
             char ch = str.charAt(i);
-
             if (str.indexOf(ch)==str.lastIndexOf(ch)){
                 uniqueCharacters += ch;
             }
