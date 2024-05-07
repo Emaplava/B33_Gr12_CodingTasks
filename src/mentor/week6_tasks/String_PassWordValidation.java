@@ -13,12 +13,34 @@ public class String_PassWordValidation {
         if all requirements above are met, the method returns true, otherwise returns false
      */
 
+    public static boolean passwordIsValid2(String password){
+        boolean hasLowerCase =false,
+                hasUpperCase=false,
+                hasDigit=false,
+                hasSpecialCh = false;
+
+        if(password.length() >= 6 && !password.contains(" ")){
+            for (int i = 0; i < password.length(); i++) {
+                if(Character.isUpperCase(password.charAt(i))) {
+                    hasUpperCase = true;
+                }else if(Character.isLowerCase(password.charAt(i))){
+                    hasLowerCase = true;
+                }else if(Character.isDigit(password.charAt(i))){
+                    hasDigit = true;
+                }else if(!Character.isLetterOrDigit(password.charAt(i))) {
+                    hasSpecialCh = true;
+                }
+            }
+        }
+        return hasUpperCase && hasLowerCase && hasDigit && hasSpecialCh;
+    }
+
 
 
 
     public static void main(String[] args) {
 
-        //System.out.println(passwordIsValid("123abc?"));
+        //System.out.println(passwordIsValid2("123abc?"));
     }
 
 
