@@ -9,9 +9,9 @@ public class Number_SwapTwoNumbers {
         System.out.println("a = " + a);
         System.out.println("b = " + b);
 
-        a = a + b;
-        b = a - b;
-        a = a - b;
+        a = a + b;// a=  15
+        b = a - b;// 15- 10 = 5 now b =5
+        a = a - b;// 15 - 5 = 10 now a = 10
 
         System.out.println("After swapping:");
         System.out.println("a = " + a);
