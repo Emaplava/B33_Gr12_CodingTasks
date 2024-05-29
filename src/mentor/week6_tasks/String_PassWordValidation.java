@@ -40,7 +40,7 @@ public class String_PassWordValidation {
 
     public static void main(String[] args) {
 
-        //System.out.println(passwordIsValid2("123abc?"));
+        System.out.println(passwordIsValid2("123Uabc"));
     }
 
 

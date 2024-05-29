@@ -26,9 +26,35 @@ public class Number_DivisibleBy3_5_15 {
 
 
 
+    public static void printDivisibleNumbers(int N) {
+        System.out.print("Divisible By 15: ");
+        for (int i = 1; i <= N; i++) {
+            if (i % 15 == 0) {
+                System.out.print(i + " ");
+            }
+        }
+        System.out.println();
+
+        System.out.print("Divisible By 5: ");
+        for (int i = 1; i <= N; i++) {
+            if (i % 5 == 0 && i % 15 != 0) {
+                System.out.print(i + " ");
+            }
+        }
+        System.out.println();
+
+        System.out.print("Divisible By 3: ");
+        for (int i = 1; i <= N; i++) {
+            if (i % 3 == 0 && i % 15 != 0) {
+                System.out.print(i + " ");
+            }
+        }
+        System.out.println();
+    }
+
     public static void main(String[] args) {
-
-
+        int N = 100;
+        printDivisibleNumbers(N);
     }
 
 
