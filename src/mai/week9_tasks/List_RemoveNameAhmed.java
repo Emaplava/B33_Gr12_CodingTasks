@@ -1,6 +1,7 @@
 package mai.week9_tasks;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class List_RemoveNameAhmed {
 
@@ -13,12 +14,7 @@ public class List_RemoveNameAhmed {
 
         ArrayList<String> peopleArrays = new ArrayList<>();
 
-        peopleArrays.add("Ahmed");
-        peopleArrays.add("John");
-        peopleArrays.add("Eric");
-        peopleArrays.add("Ahmed");
-        peopleArrays.add("Henry");
-        peopleArrays.add("John");
+        peopleArrays.addAll(Arrays.asList("Ahmed","John", "Eric", "Henry", "Ahmed"));
 
         System.out.println("List of people name \n" + peopleArrays);
 

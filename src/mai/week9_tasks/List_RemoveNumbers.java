@@ -1,6 +1,7 @@
 package mai.week9_tasks;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class List_RemoveNumbers {
 
@@ -12,14 +13,7 @@ public class List_RemoveNumbers {
 
         ArrayList<Integer> numberArray = new ArrayList<>();
 
-        numberArray.add(1);
-        numberArray.add(2);
-        numberArray.add(3);
-        numberArray.add(99);
-        numberArray.add(100);
-        numberArray.add(101);
-        numberArray.add(200);
-        numberArray.add(303);
+        numberArray.addAll(Arrays.asList(1, 2, 3, 99, 100, 101, 200, 303));
 
         System.out.println("List of integers " + numberArray);
 
