@@ -1,4 +1,4 @@
-package Fawad.week07;
+package Fawad.week07_solutions.solutions;
 
 public class Array_SortInAscendingOrder {
 

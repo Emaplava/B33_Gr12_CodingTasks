@@ -1,4 +1,4 @@
-package Fawad.week07.week06.week05;
+package Fawad.week06_solutions.solutions.week05;
 
 public class String_UniqueCharacters {
 

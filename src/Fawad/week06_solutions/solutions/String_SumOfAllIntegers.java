@@ -1,4 +1,4 @@
-package Fawad.week07.week06;
+package Fawad.week06_solutions.solutions;
 
 public class String_SumOfAllIntegers {
 
