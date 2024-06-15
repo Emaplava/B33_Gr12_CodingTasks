@@ -13,14 +13,14 @@ public class Array_SumUpToZero {
 
     public static void main(String[] args) {
 
-        int num1 = 3; //
+        int num1 = 7; //
         int num2 = num1 / 2;
         for (int i = 1; i <= num2; i++) {
             System.out.print(i + " ");
             System.out.print(-i + " ");
         }
         if (num1 % 2 != 0) { // This condition checks if num1 is an odd number. If it is, the next line will be executed.
-            System.out.println(0); // This line prints the number 0, which is the last element of the array that sums up to 0
+            System.out.println(0); //
         }
     }
 }
