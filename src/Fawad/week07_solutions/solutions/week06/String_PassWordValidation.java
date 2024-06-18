@@ -1,4 +1,4 @@
-package Fawad.week06;
+package Fawad.week07_solutions.solutions.week06;
 
 public class String_PassWordValidation {
 

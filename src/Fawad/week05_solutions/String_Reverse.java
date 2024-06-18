@@ -1,4 +1,4 @@
-package Fawad.week07.week06.week05;
+package Fawad.week05_solutions;
 
 public class String_Reverse {
 
